@@ -10,7 +10,6 @@ RUN apt install apache2 net-tools -y
 
 COPY named.conf.local /etc/bind
 COPY web.asa.br /etc/bind
-COPY index.html /var/www/html/
 EXPOSE 80/tcp
 EXPOSE 80/udp
 
